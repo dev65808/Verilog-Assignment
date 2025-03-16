@@ -3,7 +3,7 @@
 ## Verilog Assignment  
 
 ### Q1   
-(Verilog_Q1/Question.jpg)  
+![Question](Verilog_Q1/Question.jpg)  
 
 select is a 2-bit input to choose the operation.
 x and y are 8-bit inputs.
