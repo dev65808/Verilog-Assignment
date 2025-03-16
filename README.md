@@ -25,3 +25,10 @@
 - crcuit works on +ve edge of the clock and -ve edge reset
 - reset=0 means circuit gets reset(i.e active low reset)
 - here reset is an asynchronous active low (i.e independent of clk)
+
+### Q3
+![Question](Verilog_Q3/Question.jpg)
+
+-+ve edge detector
+-reset is async, active low
+-The input signal A is synchronous to the clock. Whenever A goes high, the output signal B should go high for 1 clock cycle. When reset is asserted, output B remains at 0.
