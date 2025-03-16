@@ -29,6 +29,6 @@
 ### Q3
 ![Question](Verilog_Q3/Question.jpg)
 
--+ve edge detector
--reset is async, active low
--The input signal A is synchronous to the clock. Whenever A goes high, the output signal B should go high for 1 clock cycle. When reset is asserted, output B remains at 0.
+- +ve edge detector
+- reset is async, active low
+- The input signal A is synchronous to the clock. Whenever A goes high, the output signal B should go high for 1 clock cycle. When reset is asserted, output B remains at 0.
