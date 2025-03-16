@@ -17,3 +17,11 @@
     10: z = x ^ y
 
     11: z = 0 if both x and y are odd (i.e LSB of x and y are 1), otherwise z = 1
+
+### Q2
+![Question](Verilog_Q2/Question.jpg)
+
+- b and c are delayed versions of a (b is delayed by one cycle and c is delayed by 2 cycles w.r.t a)
+- crcuit works on +ve edge of the clock and -ve edge reset
+- reset=0 means circuit gets reset(i.e active low reset)
+- here reset is an asynchronous active low (i.e independent of clk)
