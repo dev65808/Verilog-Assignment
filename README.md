@@ -38,3 +38,6 @@
 
 - Reset is async active low i.e the counter remains at 0  while under reset, When out of reset, it counts only if en signal is high, else it remains at 0.
 - The counter upcounts if the signal up_down is high, else it downcounts. If the hold signal is high, the counter pauses at whatever count it is. It continues counting when hold is low.
+
+### Q5
+![Question](Verilog_Q5/question.jpg)
