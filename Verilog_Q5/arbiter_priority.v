@@ -5,9 +5,9 @@ module arbiter_priority(input r1,r2,r3,clk,rstn, output reg a1,a2,a3);
       a1<=0;
       a2<=0;
       a3<=0;
-      r1_prev=0;
-      r2_prev=0;
-      r3_prev=0;
+      r1_prev<=0;
+      r2_prev<=0;
+      r3_prev<=0;
     end else begin
       a1<=0;
       a2<=0;
